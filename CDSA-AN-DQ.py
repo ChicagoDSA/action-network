@@ -3,8 +3,8 @@ import numpy as np
 
 
 # should this eventually connect to the google spreadsheet instead? probably.
-path = "C:/Users/ajames/Documents/Projects/"
-file = "20180108_CDSA_roster.xlsx"
+path = ""
+file = ""
 writer = pd.ExcelWriter('output.xlsx')
 
 inputFile = path + file
