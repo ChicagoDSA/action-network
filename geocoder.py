@@ -14,9 +14,7 @@ if filename:
     with open(filename, 'r') as f:
         datastore = json.load(f)
 
-#Use the new datastore datastructure
 API_KEY = datastore["API-KEY"]
-
 API_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 DISTRICTS_DIR = "districts"
 BRANCH_FILE = "branches_2020.tsv"

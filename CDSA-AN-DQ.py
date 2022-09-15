@@ -28,10 +28,7 @@ if filename:
     with open(filename, 'r') as f:
         datastore = json.load(f)
 
-#Use the new datastore datastructure
 SAMPLE_SPREADSHEET_ID = datastore["SAMPLE_SPREADSHEET_ID"]
-
-
 SAMPLE_RANGE_NAME = 'PhoneCorrections!A1:D'
 REMOVE_RANGE_NAME = 'Remove!A1:C'
 
