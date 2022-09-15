@@ -1,0 +1,7 @@
+# Prevent accidental pull requests with data. we may need to remove CSV if the branches file changes from TSV to CSV
+*.json
+*.csv
+secret.json
+
+# Junk
+.DS_Store
